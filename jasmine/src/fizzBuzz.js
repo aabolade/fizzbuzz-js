@@ -14,7 +14,9 @@ fizzbuzz = function(number) {
      return 'fizzbuzz'
   } else if (isDivisibleByThree(number)) {
      return 'fizz'
-  } else {
+  } else if (isDivisibleByFive(number)) {
      return 'buzz'
+  } else {
+    return number;
   }
   ; }
